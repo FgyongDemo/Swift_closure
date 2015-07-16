@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D36A02C8-09C1-42D3-8110-F48F9BEDA364</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Swift_闭包Demo——</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8BC5DC53445702171DA10652F362E38D3722C331</key>
+		<string>https://github.com/FgyongDemo/Swift_closure.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Swift_闭包Demo——.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8BC5DC53445702171DA10652F362E38D3722C331</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/FgyongDemo/Swift_closure.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8BC5DC53445702171DA10652F362E38D3722C331</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8BC5DC53445702171DA10652F362E38D3722C331</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Swift_closure</string>
+		</dict>
+	</array>
+</dict>
+</plist>

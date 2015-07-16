@@ -7,13 +7,13 @@
 //
 
 import UIKit
-
+//相当于 oc typedef
 typealias sendClosure = (sender:Int)-> Void
 
 
 class ViewController: UIViewController {
 
-    var closure :sendClosure?
+    var closure :sendClosure?//函数指针  相当于 oc中的block  和oc中block部一样的地方就是 block飞copy 可以copy很多份block都可以同时执行，但是swift中的函数指针指向的函数是唯一的，就是只有一份地址，只会执行一次。
     
     
     override func viewDidLoad() {
@@ -27,11 +27,11 @@ class ViewController: UIViewController {
     }
    
     func setClickButtonEvent(sender:(tag:Int)->Void){
-        self.closure = sender
+        self.closure = sender //给函数指针函数地址
     }
     @IBAction func ClickButton(sender: UIButton) {
         if (closure != nil) {
-            closure!(sender: sender.tag)
+            closure!(sender: sender.tag)//执行函数指针指向的函数
         }
     }
 }
